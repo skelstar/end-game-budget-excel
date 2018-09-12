@@ -8,6 +8,14 @@
     font-weight: bold;
     padding: 2px 5px;
     width: 80px;
+    text-align: center;
+}
+.rowHeader {
+    background-color: lightgray;
+    font-weight: bold;
+    padding: 2px 5px;
+    width: 30px;
+    text-align: right;
 }
 
 .cell {

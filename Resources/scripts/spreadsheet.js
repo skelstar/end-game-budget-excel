@@ -1,7 +1,7 @@
 
 $(document).ready(function() {
 
-    var numRows = 20;
+    var numRows = 100;
     var numCols = 100;
 
     var selectedCol, selectedRow;
@@ -55,9 +55,10 @@ $(document).ready(function() {
         for (row=0; row<numberOfRows; row++) {
 
             var xArray = [];
-            var headerStr = "";
+            var headerStr = "<th class='rowHeader'></th>";
 
-            var rowStr = "";
+            var rowNumber = row+1;
+            var rowStr = "<td class='rowHeader'>" + rowNumber + "</td>";
             
             // for each column
             for (col=0; col<numberOfCols; col++) {
